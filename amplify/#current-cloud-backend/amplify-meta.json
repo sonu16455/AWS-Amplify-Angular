@@ -1,0 +1,72 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-oxecart-dev-235119-authRole",
+      "UnauthRoleArn": "arn:aws:iam::686579843726:role/amplify-oxecart-dev-235119-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::686579843726:role/amplify-oxecart-dev-235119-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-oxecart-dev-235119-deployment",
+      "UnauthRoleName": "amplify-oxecart-dev-235119-unauthRole",
+      "StackName": "amplify-oxecart-dev-235119",
+      "StackId": "arn:aws:cloudformation:us-east-2:686579843726:stack/amplify-oxecart-dev-235119/861631f0-3b40-11ec-9932-0680981426c4",
+      "AmplifyAppId": "d3ej7zlftmdyg3"
+    }
+  },
+  "auth": {
+    "oxecart37d32893": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "loginMechanisms": [
+          "EMAIL",
+          "PHONE_NUMBER"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-oxecart-dev-235119-deployment/amplify-cfn-templates/auth/oxecart37d32893-cloudformation-template.yml",
+        "logicalId": "authoxecart37d32893"
+      },
+      "lastPushTimeStamp": "2021-11-02T02:27:39.297Z",
+      "output": {
+        "UserPoolId": "us-east-2_0zbTwTDlI",
+        "AppClientIDWeb": "20dqfrh1vjgeg122m64g5srmqj",
+        "AppClientID": "6qtuk0dva6s0ka0vkqr1gvs88q",
+        "IdentityPoolId": "us-east-2:26be43e2-3511-486c-9dad-121a7ed7bca8",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-2:686579843726:userpool/us-east-2_0zbTwTDlI",
+        "IdentityPoolName": "oxecart37d32893_identitypool_37d32893__dev",
+        "UserPoolName": "oxecart37d32893_userpool_37d32893"
+      },
+      "lastPushDirHash": "ip0Oy7PmfxF6Tzcd5RgixOX5qGI="
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "providerPlugin": "awscloudformation",
+      "type": "manual",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-oxecart-dev-235119-deployment/amplify-cfn-templates/hosting/amplifyhosting-template.json",
+        "logicalId": "hostingamplifyhosting"
+      },
+      "lastPushTimeStamp": "2021-11-02T02:27:39.316Z",
+      "output": {},
+      "lastPushDirHash": "/+VZ33seFFqAr6wbtptwbINUfSA="
+    }
+  }
+}

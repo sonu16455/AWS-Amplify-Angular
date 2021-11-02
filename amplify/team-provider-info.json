@@ -1,0 +1,26 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-oxecart-dev-235119-authRole",
+            "UnauthRoleArn": "arn:aws:iam::686579843726:role/amplify-oxecart-dev-235119-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::686579843726:role/amplify-oxecart-dev-235119-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-oxecart-dev-235119-deployment",
+            "UnauthRoleName": "amplify-oxecart-dev-235119-unauthRole",
+            "StackName": "amplify-oxecart-dev-235119",
+            "StackId": "arn:aws:cloudformation:us-east-2:686579843726:stack/amplify-oxecart-dev-235119/861631f0-3b40-11ec-9932-0680981426c4",
+            "AmplifyAppId": "d3ej7zlftmdyg3"
+        },
+        "categories": {
+            "auth": {
+                "oxecart37d32893": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d3ej7zlftmdyg3",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}
